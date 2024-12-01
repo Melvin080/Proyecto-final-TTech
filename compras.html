@@ -47,6 +47,91 @@
             </div>
         </div>
     </nav>
+    <!--cuerpo-->
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-lg-3">
+                <h1 class="h2 pb-4">Categorias</h1>
+                <ul class="list-unstyled templatemo-accordion">
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Genero
+                            <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul class="collapse show list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Hombres</a></li>
+                            <li><a class="text-decoration-none" href="#">Mujeres</a></li>
+                        </ul>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Ventas
+                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul id="collapseTwo" class="collapse list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Sombreros</a></li>
+                            <li><a class="text-decoration-none" href="#">Hamacas</a></li>
+                        </ul>
+                    </li>
+                    <li class="pb-3">
+                        <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
+                            Productos
+                            <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
+                        </a>
+                        <ul id="collapseThree" class="collapse list-unstyled pl-3">
+                            <li><a class="text-decoration-none" href="#">Bolsos</a></li>
+                            <li><a class="text-decoration-none" href="#">Platería</a></li>
+                            <li><a class="text-decoration-none" href="#">Decoración</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+    
+            <div class="col-lg-9">
+                <div class="row">
+                    <div class="col-md-6">
+                        <ul class="list-inline shop-top-menu pb-3 pt-1">
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Todo</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none mr-3" href="#">Hombres</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a class="h3 text-dark text-decoration-none" href="#">Mujeres</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 pb-4">
+                        <div class="d-flex">
+                            <select class="form-control">
+                                <option>Presentar</option>
+                                <option>A a Z</option>
+                                <option>Item</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <!-- Elementos generados a partir del JSON -->
+                        <main id="items" class="col-sm-8 row"></main>
+                        <!-- Carrito -->
+                        <aside class="col-sm-4">
+                            <h3>Carrito</h3>
+                            <!-- Elementos del carrito -->
+                            <ul id="carrito" class="list-group"></ul>
+                            <hr>
+                            <!-- Precio total -->
+                            <p class="text-right">Total: $ <span id="total"></span></p>
+                            <button id="boton-vaciar" class="btn btn-danger">Vaciar</button>
+                            <button id="" class="btn btn-info">Pagar</button>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!--Footer-->
     <footer class="bg-dark" id="templatemo_footer">
         <div class="container">
