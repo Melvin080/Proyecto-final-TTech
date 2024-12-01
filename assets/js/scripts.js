@@ -6,28 +6,28 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Sombrero vueltiao con la bandera de Colombia, 23 vueltas',
             precio: 250000,
             imagen: 'assets/img/feature_prod_01.jpg',
-            categoria: 'peces'
+            categoria: 'agua dulce'
         },
         {
             id: 2,
             nombre: 'Sombrero vueltiao-machiembriao',
             precio: 150000,
             imagen: 'assets/img/sombrero4.jpg',
-            categoria: 'plantas'
+            categoria: 'agua salada'
         },
         {
             id: 3,
             nombre: 'Sombrero vueltiao colombiano 15 vueltas tricolor',
             precio: 250000,
             imagen: 'assets/img/feature_prod_02.jpg',
-            categoria: 'alimento'
+            categoria: 'gambas'
         },
         {
             id: 4,
             nombre: 'Mochila wayuu azul 6',
             precio: 120000,
             imagen: 'assets/img/shop_04.jpg',
-            categoria: 'acuarios'
+            categoria: 'caracoles'
         },
         {
             id: 5,
