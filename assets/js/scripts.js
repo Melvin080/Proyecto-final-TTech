@@ -6,14 +6,14 @@ document.addEventListener('DOMContentLoaded', () => {
             nombre: 'Betta azul',
             precio: 250000,
             imagen: 'assets/img/feature_prod_01.jpg',
-            categoria: 'agua dulce'
+            categoria: 'sombreros'
         },
         {
             id: 2,
             nombre: 'Sombrero vueltiao-machiembriao',
             precio: 150000,
             imagen: 'assets/img/sombrero4.jpg',
-            categoria: 'agua salada'
+            categoria: 'sombreros'
         },
         {
             id: 3,
