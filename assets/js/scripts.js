@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     // Eventos
     DOMbotonVaciar.addEventListener('click', vaciarCarrito);
-    filtroSelect.addEventListener('change', renderizarProductos);
+    filtroSelect.addEventListener('click', renderizarProductos);
     // Inicio
     cargarCarritoDeLocalStorage();
     renderizarProductos();
