@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseDeDatos = [
         {
             id: 1,
-            nombre: 'Sombrero vueltiao con la bandera de Colombia, 23 vueltas',
+            nombre: 'Betta azul',
             precio: 250000,
             imagen: 'assets/img/feature_prod_01.jpg',
             categoria: 'agua dulce'
