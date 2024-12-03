@@ -95,14 +95,14 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 14,
-            nombre: 'Alimento hojuelas',
+            nombre: 'Alimento en hojuelas',
             precio: 20000,
             imagen: 'https://verdecora.es/blog/wp-content/uploads/2019/06/comida-peces-acuario-alimento-seco.jpg.webp',
             categoria: 'alimento'
         },
         {
             id: 15,
-            nombre: 'Fondo',
+            nombre: 'Alimento de Fondo',
             precio: 10000,
             imagen: 'https://verdecora.es/blog/wp-content/uploads/2019/06/comida-peces-acuario-necesidades.jpg.webp',
             categoria: 'alimento'
