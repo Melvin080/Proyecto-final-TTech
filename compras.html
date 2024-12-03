@@ -98,70 +98,25 @@
 
         <div class="col-lg-3">
             <h1 class="h2 pb-4">Categorias</h1>
-            <ul class="list-unstyled templatemo-accordion">
-                <li class="pb-3">
-                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#" onclick="renderizarProductos(filtro='todas')">
-                        Todas
-                    </a>
-                    <ul class="collapse show list-unstyled pl-3">
-                        <div class="row">
-                            <div class="col-md-6 pb-4">
-                                <div class="d-flex">
-                                    <select id="filtro" class="form-select" size="2">
-                                        <option value="todas">todas</option>
-                                        <option value="mochilas">Mochilas</option>
-                                        
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </ul>
-                </li>
-                <li class="pb-3">
-                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                        Peces, gambas y caracoles
-                        <i class="fa fa-fw fa-chevron-circle-down mt-1"></i>
-                    </a>
-                    <ul class="collapse show list-unstyled pl-3">
-                        <div class="row">
-                            <div class="col-md-6 pb-4">
-                                <div class="d-flex">
-                                    <select id="filtro" class="form-select" size="4">
-                                        <option value="sombreros">Sombreros</option>
-                                        <option value="mochilas">Mochilas</option>
-                                        <option value="bolsos">Bolsos</option>
-                                        <option value="hamacas">Hamacas</option>
-                                        
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </ul>
-                </li>
-                <li class="pb-3">
-                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                        Ventas
-                        <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
-                    </a>
-                    <ul id="collapseTwo" class="collapse list-unstyled pl-3">
-                        <li><a class="text-decoration-none" href="#">Sombreros</a></li>
-                        <li><a class="text-decoration-none" href="#">Hamacas</a></li>
-                    </ul>
-                </li>
-                <li class="pb-3">
-                    <a class="collapsed d-flex justify-content-between h3 text-decoration-none" href="#">
-                        Productos
-                        <i class="pull-right fa fa-fw fa-chevron-circle-down mt-1"></i>
-                    </a>
-                    <ul id="collapseThree" class="collapse list-unstyled pl-3">
-                        <li><a class="text-decoration-none" href="#">Bolsos</a></li>
-                        <li><a class="text-decoration-none" href="#">Decoración</a></li>
-                    </ul>
-                </li>
-            </ul>
+            <p>Elija sus productos entre nuestra seleccion de categorias.</p>
         </div>
 
         <div class="col-lg-9">
+            <div class="row">
+
+                <div class="col-md-6 pb-4">
+                    <div class="d-flex">
+                        <select id="filtro" class="form-control">
+                            <option value="todas">Todas</option>
+                            <option value="sombreros">Sombreros</option>
+                            <option value="mochilas">Mochilas</option>
+                            <option value="bolsos">Bolsos</option>
+                            <option value="hamacas">Hamacas</option>
+                            
+                        </select>
+                    </div>
+                </div>
+            </div>
              <!-- carrito -->
              <div class="container">
                 <div class="row">
