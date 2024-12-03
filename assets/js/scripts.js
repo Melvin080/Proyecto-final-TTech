@@ -4,46 +4,123 @@ document.addEventListener('DOMContentLoaded', () => {
     const baseDeDatos = [
         {
             id: 1,
-            nombre: 'Sombrero vueltiao con la bandera de Colombia, 23 vueltas',
-            precio: 250000,
-            imagen: 'assets/img/feature_prod_01.jpg',
-            categoria: 'sombreros'
+            nombre: 'Betta Azul delta',
+            precio: 10000,
+            imagen: 'https://img.freepik.com/foto-gratis/hermoso-colorido-peces-betta-siameses_1150-9450.jpg?t=st=1733200316~exp=1733203916~hmac=f5ce5d2ffbad05390e145e71076790c1115177f55a01861aabf0bb72456cbc57&w=740',
+            categoria: 'peces'
         },
         {
             id: 2,
-            nombre: 'Sombrero vueltiao-machiembriao',
-            precio: 150000,
-            imagen: 'assets/img/sombrero4.jpg',
-            categoria: 'sombreros'
+            nombre: 'Betta Azul-Blanco delta',
+            precio: 10000,
+            imagen: 'https://img.freepik.com/foto-gratis/hermoso-colorido-peces-betta-siameses_1150-9280.jpg?t=st=1733200367~exp=1733203967~hmac=a85995b272977b6753996189520135ad08e227ef3b1fa19c7df75fe2ac806134&w=740',
+            categoria: 'peces'
         },
         {
             id: 3,
-            nombre: 'Sombrero vueltiao colombiano 15 vueltas tricolor',
-            precio: 250000,
-            imagen: 'assets/img/feature_prod_02.jpg',
-            categoria: 'sombreros'
+            nombre: 'Betta Rojo delta',
+            precio: 10000,
+            imagen: 'https://img.freepik.com/foto-gratis/hermoso-colorido-peces-betta-siameses_1150-9256.jpg?t=st=1733200430~exp=1733204030~hmac=b427b79a3cb66e70cbe36ee8a78af284b5a914b9b084a42652d7b42a57827bd4&w=740',
+            categoria: 'peces'
         },
         {
             id: 4,
-            nombre: 'Mochila wayuu azul 6',
-            precio: 120000,
-            imagen: 'assets/img/shop_04.jpg',
-            categoria: 'mochilas'
+            nombre: 'Betta siames',
+            precio: 60000,
+            imagen: 'https://img.freepik.com/foto-gratis/hermoso-colorido-peces-betta-siameses_1150-9467.jpg?t=st=1733200492~exp=1733204092~hmac=6be5bfd9f75d9c53abd6db7523d139e3488c858cc489d3e7b78f18ecebf73ae4&w=740',
+            categoria: 'peces'
         },
         {
             id: 5,
-            nombre: 'Bolso en fique',
-            precio: 120000,
-            imagen: 'assets/img/shop_03.jpg',
-            categoria: 'bolsos'
+            nombre: 'Betta Blaco delta',
+            precio: 60000,
+            imagen: 'https://img.freepik.com/foto-gratis/blanco-halfmoon-betta-fish_1357-199.jpg?t=st=1733200584~exp=1733204184~hmac=ee43b7ff401362bcc9df6abe92924fcc830ee1d78c31a37bd06639a81f8aa243&w=740',
+            categoria: 'peces'
         },
         {
             id: 6,
-            nombre: 'Hamaca',
-            precio: 120000,
-            imagen: 'assets/img/category_img_02.jpg',
-            categoria: 'hamacas'
-        }
+            nombre: 'Disco Azul',
+            precio: 100000,
+            imagen: 'https://img.freepik.com/fotos-premium/primer-plano-peces-que-nadan-acuario_1048944-9863687.jpg?w=740',
+            categoria: 'peces'
+        },
+        {
+            id: 7,
+            nombre: 'Flower Horn',
+            precio: 500000,
+            imagen: 'https://img.freepik.com/fotos-premium/primer-plano-peces-que-nadan-mar_1048944-7054301.jpg?w=740',
+            categoria: 'peces'
+        },
+        {
+            id: 8,
+            nombre: 'Gamba Neocaridina orange unidad',
+            precio: 10000,
+            imagen: 'https://www.fishipedia.es/wp-content/uploads/2017/10/Neocaridina-davidi-orange-Sakura-725x483.jpg',
+            categoria: 'peces'
+        },
+        {
+            id: 9,
+            nombre: 'Caracol manzana',
+            precio: 10000,
+            imagen: 'https://www.zooplus.es/magazine/wp-content/uploads/2022/08/Caracoles-manzana.jpg',
+            categoria: 'peces'
+        },
+        {
+            id: 10,
+            nombre: 'Ambulia',
+            precio: 2000,
+            imagen: 'https://www.acuariosrtules.top/wp-content/uploads/2022/05/Limnophila-sessiliflora.jpg',
+            categoria: 'plantas'
+        },
+        {
+            id: 11,
+            nombre: 'Cola de zorro',
+            precio: 2000,
+            imagen: 'https://www.acuariosrtules.top/wp-content/uploads/2022/05/cola-de-zorro.jpg',
+            categoria: 'plantas'
+        },
+        {
+            id: 12,
+            nombre: 'Musgo de java',
+            precio: 2000,
+            imagen: 'https://www.acuariosrtules.top/wp-content/uploads/2020/05/musgo-de-java-gambario.jpg',
+            categoria: 'plantas'
+        },
+        {
+            id: 13,
+            nombre: 'Anubia',
+            precio: 5000,
+            imagen: 'https://www.acuariosrtules.top/wp-content/uploads/2022/05/anubia-barteri.jpg',
+            categoria: 'plantas'
+        },
+        {
+            id: 14,
+            nombre: 'Alimento hojuelas',
+            precio: 20000,
+            imagen: 'https://verdecora.es/blog/wp-content/uploads/2019/06/comida-peces-acuario-alimento-seco.jpg.webp',
+            categoria: 'alimento'
+        },
+        {
+            id: 15,
+            nombre: 'Fondo',
+            precio: 10000,
+            imagen: 'https://verdecora.es/blog/wp-content/uploads/2019/06/comida-peces-acuario-necesidades.jpg.webp',
+            categoria: 'alimento'
+        },
+        {
+            id: 16,
+            nombre: 'Pecera redonda',
+            precio: 30000,
+            imagen: 'https://img.freepik.com/fotos-premium/pecera-redonda-peces-colores_251317-2431.jpg?w=740',
+            categoria: 'acuarios'
+        },
+        {
+            id: 17,
+            nombre: 'Pecera cubo acrilica',
+            precio: 60000,
+            imagen: 'https://img.freepik.com/fotos-premium/acuario-mascotas-hobby-casa-decoracion-diseno-pecera_42957-3795.jpg?w=740',
+            categoria: 'acuarios'
+        },
     ];
 
     let carrito = [];
