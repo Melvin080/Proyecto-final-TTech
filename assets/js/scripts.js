@@ -121,6 +121,41 @@ document.addEventListener('DOMContentLoaded', () => {
             imagen: 'https://img.freepik.com/fotos-premium/acuario-mascotas-hobby-casa-decoracion-diseno-pecera_42957-3795.jpg?w=740',
             categoria: 'acuarios'
         },
+        {
+            id: 18,
+            nombre: 'Arena de silice blanca 1k',
+            precio: 60000,
+            imagen: 'https://img.freepik.com/fotos-premium/textura-sal-marina-patron-natural-fondo_508659-5834.jpg?w=740',
+            categoria: 'sustratos'
+        },
+        {
+            id: 19,
+            nombre: 'Arena de silice marron 1k',
+            precio: 60000,
+            imagen: 'https://img.freepik.com/fotos-premium/fondo-textura-azucar-morena_49683-62.jpg?w=740',
+            categoria: 'sustratos'
+        },
+        {
+            id: 20,
+            nombre: 'Gravilla marrón 1k',
+            precio: 60000,
+            imagen: 'https://img.freepik.com/foto-gratis/vista-alto-angulo-trigo-sarraceno-que-sale-cubo-tela-saco-horizontal_176474-2319.jpg?t=st=1733202287~exp=1733205887~hmac=d1a79d247d9bc4253e1cb080e89b3c4d46757e00c55bcb330f9b7249e67656c9&w=740',
+            categoria: 'sustratos'
+        },
+        {
+            id: 21,
+            nombre: 'Filtro',
+            precio: 50000,
+            imagen: 'https://www.acuariosrtules.top/wp-content/uploads/2020/08/filtro-interno-para-acuario-con-burbujas.jpg',
+            categoria: 'herramientas'
+        },
+        {
+            id: 22,
+            nombre: 'Rama para acuarios',
+            precio: 40000,
+            imagen: 'https://img.freepik.com/fotos-premium/corales-acuario_38678-4185.jpg?w=740',
+            categoria: 'decoracion'
+        },
     ];
 
     let carrito = [];
